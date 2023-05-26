@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 99%;
+    height: 60px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    margin-left: 15px;
+    margin-top: 20px;
+    font-family: "Sofia", sans-serif;
+
+}
+
+.imgcontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.imgbox {
+    display: flex;
+    height: 200px;
+    margin: 10px;
+    margin-top: 10px;
+
+
+}
+
+.imgbox img {
+    object-fit: cover;
+    position: relative;
+}
+
+.imgbox img:hover {
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transform: scale(1.08);
+
+
+}
+
+.dialogBg {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+}
+
+img:hover {
+    cursor: pointer;
+    color: lightgray;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ausblenden {
+    display: none;
+
+}
+
+.classImg {
+    height: 390px;
+
+}
+
+.Focus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.delete {
+    position: absolute;
+    height: 45px;
+    width: 45px;
+    filter: invert(1);
+    transform: rotate(45deg);
+    top: 20px;
+    right: 20px;
+}
+
+.ALeft {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    filter: invert(1);
+    right: 100px;
+
+
+}
+
+.ARight {
+    position: absolute;
+    height: 55px;
+    width: 55px;
+    filter: invert(1);
+    left: 100px;
+    transform: rotate(180deg);
+
+}
